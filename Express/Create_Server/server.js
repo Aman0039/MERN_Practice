@@ -1,5 +1,10 @@
+// Install Express - done;
+
+// Importing express using cjs.
 const express = require("express");
 
+
+//calling express fn by app.
 const app = express();
 
 // Define port
@@ -7,7 +12,7 @@ const PORT = 3000;
 
 // Test route
 app.get("/", (req, res) => {
-  res.send("Server is running 🚀");
+  res.status(ok).send("Server is running 🚀");
 });
 
 // Start server
