@@ -7,13 +7,19 @@ const express = require("express");
 //calling express fn by app.
 const app = express();
 
+
+app.get("/", (req, res) => {
+  res.status(200).send("Server is running 🚀");
+});
+
+app.get("/home" , (req,res)=>res.send("This is Home Route"));
+
+app.get("/contactus" , (req,res)=> res.send("This is contact page"))
+
+app.get("/services",(req,res)=>res.send("Explore Our Services!"))
+
 // Define port
 const PORT = 3000;
-
-// Test route
-app.get("/", (req, res) => {
-  res.status(ok).send("Server is running 🚀");
-});
 
 // Start server
 app.listen(PORT, () => {
