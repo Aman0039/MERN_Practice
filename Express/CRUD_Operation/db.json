@@ -1,0 +1,16 @@
+{
+    "courses": [
+        {
+            "id": 101,
+            "tilte": "Intro To JS",
+            "Instructor": "alice",
+            "Duration": 10
+        },
+        {
+            "id": 102,
+            "title": "Intro To Express",
+            "Instructor": "bob",
+            "Duration": 20
+        }
+    ]
+}
