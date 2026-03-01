@@ -2,15 +2,27 @@
     "courses": [
         {
             "id": 101,
-            "tilte": "Intro To JS",
-            "Instructor": "alice",
-            "Duration": 10
+            "title": "Intro To Typescript",
+            "Instructor": "charlie",
+            "Duration": 28
         },
         {
             "id": 102,
             "title": "Intro To Express",
             "Instructor": "bob",
             "Duration": 20
+        },
+        {
+            "id": 103,
+            "title": "Intro To React",
+            "Instructor": "Charlie",
+            "Duration": 15
+        },
+        {
+            "id": 104,
+            "title": "Intro To MonogDB",
+            "Instructor": "Charlie",
+            "Duration": 25
         }
     ]
 }
