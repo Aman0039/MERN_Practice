@@ -4,10 +4,14 @@ const express = require("express");
 
 //import fs module
 
-const fs = require("fs")
+const fs = require("fs");
+const courseRouter = require("./routes/courseRoutes");
 
 //Calling Express in app
 const app = express();
+
+
+app.use("/course" , courseRouter);
 
 
 //We need a parser that convert Stringify data into JSON Formate.
